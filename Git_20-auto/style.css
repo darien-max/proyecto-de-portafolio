@@ -1,0 +1,44 @@
+root{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.logo{
+    width: 100px;
+}
+#contenedor_cabezera{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#contenedor_banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("./img/banner.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    border-radius: 10px;
+}
+#titulo{
+    font-size: xx-large;
+    color: rgb(0, 0, 0);
+}
+#subtitulo{
+    font-size: 30px; 
+    color: rgb(155, 158, 163); 
+  }
+
+#descripsion{
+    font-family:arial, helvetica, sans-serif;
+    font-size: 18px;
+
+}
+#tarjetas{
+    margin-left: 20px;
+    margin-right: 20px;
+    display: flex;
+    justify-content:space-between;
+    gap: 10px;
+}
+
